@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.admincontainer{
+    height: 100px;
+    background-color: #8aebf1;
+    align-items: center;
+    display: flex;
+}
+.links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left:60% ;
+}
+#links{
+    padding: 20px;
+    text-decoration: none;
+}
+.profile{
+    margin: 20px;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #eeabab;
+}
+.profile1{
+    width: 300px;
+    height: 500px;
+    background-color: #b13d3d;
+}
+.profile2{
+    width: 300px;
+    height: 500px;
+    background-color: #b13d3d;
+}

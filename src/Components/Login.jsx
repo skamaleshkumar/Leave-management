@@ -16,7 +16,7 @@ function Login() {
     e.preventDefault()
 
     try{
-      await axios.post("http://localhost:3001/api/v1/user/login",{
+      await axios.post("http://localhost:3001/api/v1/user/Login",{
         email,password
       },
       {

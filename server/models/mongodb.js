@@ -1,5 +1,5 @@
 const mongoose =require('mongoose')
-const dbUrl="mongodb+srv://skamaleshkumar89251:QC6pYLOPZDuH5viP@cluster0.oinm01a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const dbUrl="mongodb+srv://skamaleshkumar89251:Ku3qdgtSIdLm0WHx@cluster0.oinm01a.mongodb.net/"
 
 mongoose.connect(dbUrl)
 .then(() => {
@@ -11,15 +11,9 @@ mongoose.connect(dbUrl)
 })
 
 const EmployeeSchema = new mongoose.Schema({
-    email:{
-        type:String,
-        required:true
-    },
-    password:{
-        type:String,
-        required:true
-    }
+    email:String,
+    password:String
 })
 
 const EmployeeModel =new mongoose.model("employees",EmployeeSchema)
-module.exports=EmployeeModel
+module.exports=EmployeeModel;

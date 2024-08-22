@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.detail{
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.detail>h1{
+    flex: 1;
+}
+ .add{
+ width: 150px;
+ height: 40px;
+ margin-right: 10px;
+ border-radius: 10px;
+ background-color: #E8651C; 
+ 
+}

@@ -1,16 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './dashboard.css'
+import Footer from '../Components/Footer'
 
 function Dashboard() {
   return (
     <div>
       <div className="container">
     <div className="nav">
-      <Link to="./Employee" id='link'>Home</Link>
+      <Link to="./" id='link'>Home</Link>
       <Link to="./Admin" id='link'>About</Link>
       <Link to="./Idendity" id='link'>Login</Link>
-      <Link to="./Update" id='link'>Contact</Link>
+      <Link to="./Login" id='link'>Contact</Link>
       
     </div>
   </div>
@@ -35,13 +36,7 @@ function Dashboard() {
         
         </div>
       </div>
-      <div className="footer">
-        <div className="footerimages">
-          <img src="./src/assets/FB-1.png" alt="img1" />
-          <img src="./src/assets/Linked_In.png" alt="img2" />
-          <img src="./src/assets/Twitter.png" alt="img3" />
-        </div>
-      </div>
+      <Footer/>
     </div>
   )
 }

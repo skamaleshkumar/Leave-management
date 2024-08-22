@@ -10,6 +10,9 @@ import Admin from './pages/Admin.jsx'
 import Hr from './pages/Hr.jsx'
 import Update from './Components/Update.jsx'
 import Response from './Components/Response.jsx'
+import Request from './Components/Request.jsx'
+import Supervisor from './pages/Supervisor.jsx'
+import Employeedetails from './Components/Employeedetails.jsx'
 
  function App() {
   return (
@@ -23,6 +26,10 @@ import Response from './Components/Response.jsx'
         <Route path="/Hr" element={<Hr/>}/>
         <Route path="/Update" element={<Update/>}/>
         <Route path="/Response" element={<Response/>}/>
+        <Route path="/Request" element={<Request/>}/>
+        <Route path="/Supervisor" element={<Supervisor/>}/>
+        <Route path="/Employeedetails" element={<Employeedetails/>}/>
+
 
       
        

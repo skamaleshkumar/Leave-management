@@ -17,7 +17,7 @@ app.post('/', async(req,res)=>{
     }
 
 try {
-    const check =await EmployeeModel.findone({email:email})
+    const check =await EmployeeModel.findOne({email:email})
 
     if(check){
         res.json("exist")

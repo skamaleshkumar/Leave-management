@@ -5,7 +5,7 @@
 }
 .admincontainer{
     height: 100px;
-    background-color: #8aebf1;
+    background-color: #eeb1b1; 
     align-items: center;
     display: flex;
 }
@@ -20,21 +20,43 @@
     text-decoration: none;
 }
 .profile{
-    margin: 20px;
-    width: 80%;
-    height: 100vh;
+    margin: 10px;
+    height: 500px;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    background-color: #eeabab;
+    justify-content: space-between;
 }
 .profile1{
-    width: 300px;
+    width: 400px;
     height: 500px;
-    background-color: #b13d3d;
+    box-shadow: 2px 2px 2px 2px #201f1f;
+    margin: 10px;
+}
+.profile1>h3{
+    padding: 10px;
 }
 .profile2{
-    width: 300px;
+    width: 400px;
     height: 500px;
-    background-color: #b13d3d;
+    box-shadow: 2px 2px 2px 2px #201f1f;
+    padding: 10px;
+    margin: 10px;
+}
+.profile2>h3{
+    padding: 10px;
+}
+.profile3{
+    width: 400px;
+    height: 500px;
+    box-shadow: 2px 2px 2px 2px #201f1f;
+    margin: 10px;
+    text-align: center;
+}
+.profileimage{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px #201f1f;
+    background-color: #fff;
+    margin: 50px;
 }

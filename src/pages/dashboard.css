@@ -52,13 +52,4 @@
     height: 200px;
     width: 300px;
 }
-.footer{
-    height: 50px;
-    background-color: #e69696;
-    display: flex;
-    align-items: center;
-  padding-left: 80%;
-}
-.footerimages>img{
-    padding: 10px;
-}
+

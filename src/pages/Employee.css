@@ -3,8 +3,60 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.form{
-    width: 500px;
-    height: 800px;
-    background-color: #e69696;
+.employeecontainer{
+    height: 100px;
+    background-color: #eeb1b1; 
+    align-items: center;
+    display: flex;
+}
+.emplinks{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left:60% ;
+}
+#emplinks{
+    padding: 20px;
+    text-decoration: none;
+}
+.profile{
+    margin: 10px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile1{
+    width: 400px;
+    height: 500px;
+    box-shadow: 2px 2px 2px 2px #201f1f;
+    margin: 10px;
+}
+.profile1>h3{
+    padding: 10px;
+}
+.profile2{
+    width: 400px;
+    height: 500px;
+    box-shadow: 2px 2px 2px 2px #201f1f;
+    padding: 10px;
+    margin: 10px;
+}
+.profile2>h3{
+    padding: 10px;
+}
+.profile3{
+    width: 400px;
+    height: 500px;
+    box-shadow: 2px 2px 2px 2px #201f1f;
+    margin: 10px;
+    text-align: center;
+}
+.profileimage{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px #201f1f;
+    background-color: #fff;
+    margin: 50px;
 }
